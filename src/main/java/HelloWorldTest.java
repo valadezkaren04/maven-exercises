@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class HelloWorldTest {
     public static void main(String[] args) {
+
+        // asks the user to enter a number
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number...");
         String userInput = scanner.nextLine();
